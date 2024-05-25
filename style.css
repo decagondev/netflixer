@@ -1,0 +1,114 @@
+.noto-sans-netflix {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 628px;
+    background: 
+        linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1)), 
+        url("hero-bg.jpg") no-repeat center/cover; 
+}
+
+.container header {
+    display: flex;
+    flex-direction: column;
+}
+
+.container header nav {
+    display: flex;
+    height: 30px;
+    width: 80vw;
+    justify-content: space-between;
+    margin-bottom: 120px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-family: "Sofia";
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+button {
+    background-color: #ec3f30;
+    color: #ffffff;
+    border-radius: 4px;
+    border: none;
+}
+
+.logo {
+    width: 148px;
+    height: 40px;
+    filter: invert(25%) sepia(100%) saturate(7000%) hue-rotate(360deg);
+}
+
+.sign_in {
+    width: 79px;
+    height: 32px;  
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px;
+    height: 100px;
+}
+
+
+.form_area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_area h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.form_area form {
+    display: flex;
+}
+
+.form_area form input {
+    height: 56px;
+    width: 367px;
+    margin-right: 5px;
+    border-radius: 5px;
+    background-color: rgba(44, 44, 44, 0.8);
+    border: 1px solid #646464;
+    border-radius: 5px;
+    padding: 10px 20px; 
+    padding:10px;
+    color: #ffffff;
+}
+
+::placeholder {
+    color: #ffffff;
+}
+
+.form_area form button {
+    width: 211px;
+    font-size: 24px;
+}
